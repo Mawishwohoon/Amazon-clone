@@ -1,0 +1,462 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.navbar{
+    background-color: #131921;
+    height: 60px;
+    width: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* logo */
+.nav-logo{
+    height: 50px;
+    width: 115px;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border-color: white;
+}
+
+/* box1 */
+.upper{
+    margin-left: 17px;
+    display: flex;
+    font-size: 0.8rem;
+    color:#cccccc;
+
+}
+.lower{
+    display: flex;
+}
+.lower-text{
+    display: flex;
+    margin-left: 4px;
+}
+
+/* search */
+.nav_search{
+    height: 40px;
+    width:700px;
+    display:flex;
+    align-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 4px;
+    border: none;
+    
+}
+.search_select{
+    background-color: #e6e6e6;
+    height: 40px;
+    /* margin: 0;
+    padding: 0; */
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.search_icon{
+    background-color: orange;
+    height: 40px;
+    width: 45px;
+    /* margin: 0;
+    padding: 0; */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+/* language */
+.flag{
+    background-image: url(images/united-states.png);
+    height: 20px;
+    width: 50px;
+    background-size: cover;
+}
+.language{
+    background-color: none;
+    background: transparent;
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.language select{
+    background-color: none;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.sign-upper{
+    margin-left: 17px;
+    display: flex;
+    font-size: 0.7rem;
+    color:white;
+}
+.signin-select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-left: 11px;
+}
+
+.nav-return{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-text{
+    font-size: 0.8rem;
+    margin-left: 3px;
+}
+
+/* Navigation list */
+.nav-list{
+    background-color: #232f3e;
+    height: 40px;
+    width: auto;
+    color: white;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: bold;
+    align-items: center;
+}
+.list-bar{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 30px;
+    width: 50px;
+}
+.list-bar p{
+    margin-left: 10px;
+}
+.nav-list a{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+}
+
+/* background photo */
+.background-photo{
+    background-image: url(images/background\ image.jpg);
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+}
+
+/* containers */
+.shop{
+    background-color: #e3e6e6;
+    height: 830px;
+}
+.firstrow-shop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondrow-shop{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 15px; */
+}
+.box{
+    background-color: white;
+    height: 390px;
+    width: 23%;
+    margin-top:15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstimg{
+    background-image: url(images/gamingexess.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondimg{
+    background-image: url(images/cpu.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.thirdimg{
+    background-image: url(images/toys.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourthimg{
+    background-image: url(images/laptop.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fifthimg{
+    background-image: url(images/homedecor.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sixthimg{
+    background-image: url(images/boxes.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sevenimg{
+    background-image: url(images/shoes.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eightimg{
+    background-image: url(images/office\ chair.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 260px;
+    width: 275px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-content{
+    height: 100%;
+    width: 100%;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+.box-content p{
+    color: #007185;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+/* signin */
+.signin{
+    height:120px;
+}
+.signin-content{
+    border: grey solid 1px;
+    border-radius: 5px;
+    height: 80%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.but{
+    background-color: #ffc940;
+    border: rgb(179, 117, 2) solid 1px;
+    background: linear-gradient(to bottom, rgb(248, 203, 144), #ffc940);
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+.signin-content p{
+    font-size: 0.8rem;
+}
+
+.backtotop{
+    height: 50px;
+    background-color: #37475a;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+
+.backtotop:hover{
+    background-color: #405166;
+}
+
+.footpanel1{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+ul{
+    text-decoration: none;
+    display: block;
+    color:white;
+    margin-top: 30px;
+
+}
+ul a{
+    text-decoration: none;
+    color:#dddddd;
+    display: block;
+    margin-top: 15px;
+    font-size: 0.85rem;
+}
+.footpanel2{
+    background-color: #232f3e;
+    height: 80px;
+    border-top: grey solid 1px;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.english{
+    background-color: transparent;
+    border: #dddddd solid 1px;
+    color: #dddddd;
+    height: 35px;
+    width: 110px;
+    border-radius: 4px;
+    margin-left: 40px;
+}
+.currency{
+    background-color: transparent;
+    border: #dddddd solid 1px;
+    color: #dddddd;
+    height: 35px;
+    width: 150px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.location{
+    background-color: transparent;
+    border: #dddddd solid 1px;
+    color: #dddddd;
+    height: 35px;
+    width: 140px;
+    border-radius: 4px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flagsecond{
+    background-image: url(images/united-states.png);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+.globe{
+    height:35px;
+    width: auto;
+}
+.footpanel3{
+    background-color: #131a22;
+    height: 80px;
+    color: white;
+
+}
+.footoption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footoption a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.footoption a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
